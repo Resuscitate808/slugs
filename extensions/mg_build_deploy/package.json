@@ -1,0 +1,75 @@
+{
+    "package_version": 2,
+    "name": "mg_build_deploy",
+    "version": "1.0.0",
+    "author": "JayJoy",
+    "editor": ">=3.8.4",
+    "description": "build and deploy tools for AG minigames",
+    "main": "./dist/main.js",
+    "contributions": {
+        "menu": [
+            {
+                "path": "JJ/dev",
+                "label": "build",
+                "message": "build_dev"
+            },
+            {
+                "path": "JJ/dev",
+                "label": "deploy",
+                "message": "deploy_dev"
+            },
+            {
+                "path": "JJ/dev",
+                "label": "build deploy",
+                "message": "build_deploy_dev"
+            },
+            {
+                "path": "JJ/prod",
+                "label": "build yandex",
+                "message": "build_yandex"
+            },
+            {
+                "path": "JJ/prod",
+                "label": "build archive yandex",
+                "message": "build_archive_yandex"
+            },
+            {
+                "path": "JJ/prod",
+                "label": "build vk",
+                "message": "build_vk"
+            }
+        ],
+        "messages": {
+            "build_dev": {
+                "methods": [
+                    "build_dev"
+                ]
+            },
+            "deploy_dev": {
+                "methods": [
+                    "deploy_dev"
+                ]
+            },
+            "build_deploy_dev": {
+                "methods": [
+                    "build_deploy_dev"
+                ]
+            },
+            "build_yandex": {
+                "methods": [
+                    "build_yandex"
+                ]
+            },
+            "build_archive_yandex": {
+                "methods": [
+                    "build_archive_yandex"
+                ]
+            },
+            "build_vk": {
+                "methods": [
+                    "build_vk"
+                ]
+            }
+        }
+    }
+}

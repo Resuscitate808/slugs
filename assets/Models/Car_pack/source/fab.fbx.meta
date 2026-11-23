@@ -1,0 +1,2890 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb",
+  "files": [],
+  "subMetas": {
+    "17658": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@17658",
+      "displayName": "",
+      "id": "17658",
+      "name": "Body-29.material",
+      "userData": {
+        "gltfIndex": 29
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "17969": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@17969",
+      "displayName": "",
+      "id": "17969",
+      "name": "Optics-25.material",
+      "userData": {
+        "gltfIndex": 25
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "25488": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@25488",
+      "displayName": "",
+      "id": "25488",
+      "name": "Map #9-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "34232": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@34232",
+      "displayName": "",
+      "id": "34232",
+      "name": "Map #8-13.image",
+      "userData": {
+        "gltfIndex": 13,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "52714": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@52714",
+      "displayName": "",
+      "id": "52714",
+      "name": "Wheel_D-15.mesh",
+      "userData": {
+        "gltfIndex": 15,
+        "triangleCount": 614
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "54238": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@54238",
+      "displayName": "",
+      "id": "54238",
+      "name": "Wheel_A002-48.mesh",
+      "userData": {
+        "gltfIndex": 48,
+        "triangleCount": 592
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "57367": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@57367",
+      "displayName": "",
+      "id": "57367",
+      "name": "Wheel_G002-24.mesh",
+      "userData": {
+        "gltfIndex": 24,
+        "triangleCount": 542
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "64746": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@64746",
+      "displayName": "",
+      "id": "64746",
+      "name": "Map #8-22.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/SportRed.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "67967": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@67967",
+      "displayName": "",
+      "id": "67967",
+      "name": "Body-32.material",
+      "userData": {
+        "gltfIndex": 32
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75349": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@75349",
+      "displayName": "",
+      "id": "75349",
+      "name": "Wheel_B003-14.mesh",
+      "userData": {
+        "gltfIndex": 14,
+        "triangleCount": 567
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "78343": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@78343",
+      "displayName": "",
+      "id": "78343",
+      "name": "Map #8-10.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/MinivanRed.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "83400": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@83400",
+      "displayName": "",
+      "id": "83400",
+      "name": "Wheel_H-35.mesh",
+      "userData": {
+        "gltfIndex": 35,
+        "triangleCount": 603
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "91305": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@91305",
+      "displayName": "",
+      "id": "91305",
+      "name": "Sedan Body-30.mesh",
+      "userData": {
+        "gltfIndex": 30,
+        "triangleCount": 4754
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96922": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@96922",
+      "displayName": "",
+      "id": "96922",
+      "name": "Map #8-3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@014c3"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1a910": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1a910",
+      "displayName": "",
+      "id": "1a910",
+      "name": "Wheel_C-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 539
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "baeb1": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@baeb1",
+      "displayName": "",
+      "id": "baeb1",
+      "name": "Wheel_C001-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 539
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c38e": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1c38e",
+      "displayName": "",
+      "id": "1c38e",
+      "name": "Wheel_C002-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 539
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9ac7": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c9ac7",
+      "displayName": "",
+      "id": "c9ac7",
+      "name": "Wheel_C003-3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 539
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e1bda": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e1bda",
+      "displayName": "",
+      "id": "e1bda",
+      "name": "Compact Body-4.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 5101
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6f3e3": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6f3e3",
+      "displayName": "",
+      "id": "6f3e3",
+      "name": "Coupe Body-5.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 4082
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3fe6e": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@3fe6e",
+      "displayName": "",
+      "id": "3fe6e",
+      "name": "Wheel_F001-6.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 485
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4a704": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4a704",
+      "displayName": "",
+      "id": "4a704",
+      "name": "Wheel_F002-7.mesh",
+      "userData": {
+        "gltfIndex": 7,
+        "triangleCount": 485
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3aefb": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@3aefb",
+      "displayName": "",
+      "id": "3aefb",
+      "name": "Wheel_F003-8.mesh",
+      "userData": {
+        "gltfIndex": 8,
+        "triangleCount": 485
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "315c5": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@315c5",
+      "displayName": "",
+      "id": "315c5",
+      "name": "Wheel_F-9.mesh",
+      "userData": {
+        "gltfIndex": 9,
+        "triangleCount": 485
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "837c4": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@837c4",
+      "displayName": "",
+      "id": "837c4",
+      "name": "Hatchback Body-10.mesh",
+      "userData": {
+        "gltfIndex": 10,
+        "triangleCount": 4540
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4e9f1": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4e9f1",
+      "displayName": "",
+      "id": "4e9f1",
+      "name": "Wheel_B-11.mesh",
+      "userData": {
+        "gltfIndex": 11,
+        "triangleCount": 567
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1bd8": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d1bd8",
+      "displayName": "",
+      "id": "d1bd8",
+      "name": "Wheel_B001-12.mesh",
+      "userData": {
+        "gltfIndex": 12,
+        "triangleCount": 567
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1a6c7": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1a6c7",
+      "displayName": "",
+      "id": "1a6c7",
+      "name": "Wheel_B002-13.mesh",
+      "userData": {
+        "gltfIndex": 13,
+        "triangleCount": 567
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "57eec": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@57eec",
+      "displayName": "",
+      "id": "57eec",
+      "name": "minivan body-16.mesh",
+      "userData": {
+        "gltfIndex": 16,
+        "triangleCount": 4994
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e628": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1e628",
+      "displayName": "",
+      "id": "1e628",
+      "name": "Wheel_D001-17.mesh",
+      "userData": {
+        "gltfIndex": 17,
+        "triangleCount": 614
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9cce0": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9cce0",
+      "displayName": "",
+      "id": "9cce0",
+      "name": "Wheel_D002-18.mesh",
+      "userData": {
+        "gltfIndex": 18,
+        "triangleCount": 614
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "be36a": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@be36a",
+      "displayName": "",
+      "id": "be36a",
+      "name": "Wheel_D003-19.mesh",
+      "userData": {
+        "gltfIndex": 19,
+        "triangleCount": 614
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "455e0": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@455e0",
+      "displayName": "",
+      "id": "455e0",
+      "name": "Wheel_G-20.mesh",
+      "userData": {
+        "gltfIndex": 20,
+        "triangleCount": 542
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "06567": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@06567",
+      "displayName": "",
+      "id": "06567",
+      "name": "Offroad Body-21.mesh",
+      "userData": {
+        "gltfIndex": 21,
+        "triangleCount": 4334
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d1be": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7d1be",
+      "displayName": "",
+      "id": "7d1be",
+      "name": "Wheel_G001-22.mesh",
+      "userData": {
+        "gltfIndex": 22,
+        "triangleCount": 542
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4b2ab": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4b2ab",
+      "displayName": "",
+      "id": "4b2ab",
+      "name": "Wheel_G001-23.mesh",
+      "userData": {
+        "gltfIndex": 23,
+        "triangleCount": 542
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "53a25": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@53a25",
+      "displayName": "",
+      "id": "53a25",
+      "name": "Wheel_E-25.mesh",
+      "userData": {
+        "gltfIndex": 25,
+        "triangleCount": 584
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4016": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d4016",
+      "displayName": "",
+      "id": "d4016",
+      "name": "Pickup Body-26.mesh",
+      "userData": {
+        "gltfIndex": 26,
+        "triangleCount": 4582
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "38fe0": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@38fe0",
+      "displayName": "",
+      "id": "38fe0",
+      "name": "Wheel_E001-27.mesh",
+      "userData": {
+        "gltfIndex": 27,
+        "triangleCount": 584
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "351fd": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@351fd",
+      "displayName": "",
+      "id": "351fd",
+      "name": "Wheel_E002-28.mesh",
+      "userData": {
+        "gltfIndex": 28,
+        "triangleCount": 584
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f2217": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f2217",
+      "displayName": "",
+      "id": "f2217",
+      "name": "Wheel_E003-29.mesh",
+      "userData": {
+        "gltfIndex": 29,
+        "triangleCount": 584
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "120c6": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@120c6",
+      "displayName": "",
+      "id": "120c6",
+      "name": "Wheel_A-31.mesh",
+      "userData": {
+        "gltfIndex": 31,
+        "triangleCount": 592
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4986f": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4986f",
+      "displayName": "",
+      "id": "4986f",
+      "name": "Wheel_A001-32.mesh",
+      "userData": {
+        "gltfIndex": 32,
+        "triangleCount": 592
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3aaab": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@3aaab",
+      "displayName": "",
+      "id": "3aaab",
+      "name": "Wheel_A002-33.mesh",
+      "userData": {
+        "gltfIndex": 33,
+        "triangleCount": 592
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ff7fb": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@ff7fb",
+      "displayName": "",
+      "id": "ff7fb",
+      "name": "Wheel_A003-34.mesh",
+      "userData": {
+        "gltfIndex": 34,
+        "triangleCount": 592
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f8300": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f8300",
+      "displayName": "",
+      "id": "f8300",
+      "name": "Wheel_H001-36.mesh",
+      "userData": {
+        "gltfIndex": 36,
+        "triangleCount": 603
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0c658": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@0c658",
+      "displayName": "",
+      "id": "0c658",
+      "name": "Wheel_H002-37.mesh",
+      "userData": {
+        "gltfIndex": 37,
+        "triangleCount": 603
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "002c6": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@002c6",
+      "displayName": "",
+      "id": "002c6",
+      "name": "Wheel_H003-38.mesh",
+      "userData": {
+        "gltfIndex": 38,
+        "triangleCount": 603
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c4151": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c4151",
+      "displayName": "",
+      "id": "c4151",
+      "name": "Sport body-39.mesh",
+      "userData": {
+        "gltfIndex": 39,
+        "triangleCount": 3856
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "35c85": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@35c85",
+      "displayName": "",
+      "id": "35c85",
+      "name": "Wheel_E-40.mesh",
+      "userData": {
+        "gltfIndex": 40,
+        "triangleCount": 584
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "90ccf": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@90ccf",
+      "displayName": "",
+      "id": "90ccf",
+      "name": "SUV Body-41.mesh",
+      "userData": {
+        "gltfIndex": 41,
+        "triangleCount": 5615
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eb66b": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@eb66b",
+      "displayName": "",
+      "id": "eb66b",
+      "name": "Wheel_E001-42.mesh",
+      "userData": {
+        "gltfIndex": 42,
+        "triangleCount": 584
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4472f": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4472f",
+      "displayName": "",
+      "id": "4472f",
+      "name": "Wheel_E002-43.mesh",
+      "userData": {
+        "gltfIndex": 43,
+        "triangleCount": 584
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a239b": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a239b",
+      "displayName": "",
+      "id": "a239b",
+      "name": "Wheel_E003-44.mesh",
+      "userData": {
+        "gltfIndex": 44,
+        "triangleCount": 584
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "52e9c": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@52e9c",
+      "displayName": "",
+      "id": "52e9c",
+      "name": "Wagon Body-45.mesh",
+      "userData": {
+        "gltfIndex": 45,
+        "triangleCount": 4614
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e229e": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e229e",
+      "displayName": "",
+      "id": "e229e",
+      "name": "Wheel_A-46.mesh",
+      "userData": {
+        "gltfIndex": 46,
+        "triangleCount": 592
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0cd0": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a0cd0",
+      "displayName": "",
+      "id": "a0cd0",
+      "name": "Wheel_A001-47.mesh",
+      "userData": {
+        "gltfIndex": 47,
+        "triangleCount": 592
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9faa8": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9faa8",
+      "displayName": "",
+      "id": "9faa8",
+      "name": "Wheel_A003-49.mesh",
+      "userData": {
+        "gltfIndex": 49,
+        "triangleCount": 592
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4e6f8": {
+      "importer": "gltf-mesh",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4e6f8",
+      "displayName": "",
+      "id": "4e6f8",
+      "name": "Cylinder001-50.mesh",
+      "userData": {
+        "gltfIndex": 50,
+        "triangleCount": 32
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "014c3": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@014c3",
+      "displayName": "",
+      "id": "014c3",
+      "name": "Map #8-3.image",
+      "userData": {
+        "gltfIndex": 3,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "ae790": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@ae790",
+      "displayName": "",
+      "id": "ae790",
+      "name": "Map #10-5.image",
+      "userData": {
+        "gltfIndex": 5,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "f50b9": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f50b9",
+      "displayName": "",
+      "id": "f50b9",
+      "name": "Map #8-6.image",
+      "userData": {
+        "gltfIndex": 6,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "54eb2": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@54eb2",
+      "displayName": "",
+      "id": "54eb2",
+      "name": "Map #10-12.image",
+      "userData": {
+        "gltfIndex": 12,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "cef36": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@cef36",
+      "displayName": "",
+      "id": "cef36",
+      "name": "Map #8-18.image",
+      "userData": {
+        "gltfIndex": 18,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "36e1b": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@36e1b",
+      "displayName": "",
+      "id": "36e1b",
+      "name": "Map #8-24.image",
+      "userData": {
+        "gltfIndex": 24,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "4875b": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4875b",
+      "displayName": "",
+      "id": "4875b",
+      "name": "Map #8-27.image",
+      "userData": {
+        "gltfIndex": 27,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "d0c5b": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d0c5b",
+      "displayName": "",
+      "id": "d0c5b",
+      "name": "Map #10-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/wheel_C_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e3f5c": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e3f5c",
+      "displayName": "",
+      "id": "e3f5c",
+      "name": "Map #8-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/CompactBlue.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b9b9": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9b9b9",
+      "displayName": "",
+      "id": "9b9b9",
+      "name": "Map #9-4.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "aded6": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@aded6",
+      "displayName": "",
+      "id": "aded6",
+      "name": "Map #10-5.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@ae790"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7586f": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7586f",
+      "displayName": "",
+      "id": "7586f",
+      "name": "Map #8-6.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f50b9"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a4739": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a4739",
+      "displayName": "",
+      "id": "a4739",
+      "name": "Map #9-7.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "38f8d": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@38f8d",
+      "displayName": "",
+      "id": "38f8d",
+      "name": "Map #10-8.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/wheel_B_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c7b61": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c7b61",
+      "displayName": "",
+      "id": "c7b61",
+      "name": "Map #10-9.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/wheel_D_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "42de8": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@42de8",
+      "displayName": "",
+      "id": "42de8",
+      "name": "Map #9-11.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "833ea": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@833ea",
+      "displayName": "",
+      "id": "833ea",
+      "name": "Map #10-12.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@54eb2"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ae231": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@ae231",
+      "displayName": "",
+      "id": "ae231",
+      "name": "Map #8-13.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@34232"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "332a8": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@332a8",
+      "displayName": "",
+      "id": "332a8",
+      "name": "Map #9-14.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9f57": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c9f57",
+      "displayName": "",
+      "id": "c9f57",
+      "name": "Map #10-15.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/wheel_E_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c1a6d": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c1a6d",
+      "displayName": "",
+      "id": "c1a6d",
+      "name": "Map #8-16.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/PickupGreen.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1aab": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d1aab",
+      "displayName": "",
+      "id": "d1aab",
+      "name": "Map #9-17.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "576c2": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@576c2",
+      "displayName": "",
+      "id": "576c2",
+      "name": "Map #8-18.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@cef36"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d78e2": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d78e2",
+      "displayName": "",
+      "id": "d78e2",
+      "name": "Map #9-19.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "741bc": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@741bc",
+      "displayName": "",
+      "id": "741bc",
+      "name": "Map #10-20.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/Wheel_A_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8bc95": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@8bc95",
+      "displayName": "",
+      "id": "8bc95",
+      "name": "Map #10-21.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/wheel_H_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d433d": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d433d",
+      "displayName": "",
+      "id": "d433d",
+      "name": "Map #9-23.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f64c7": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f64c7",
+      "displayName": "",
+      "id": "f64c7",
+      "name": "Map #8-24.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@36e1b"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c938e": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c938e",
+      "displayName": "",
+      "id": "c938e",
+      "name": "Map #10-25.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/wheel_E_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d889f": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d889f",
+      "displayName": "",
+      "id": "d889f",
+      "name": "Map #9-26.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9aabd": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9aabd",
+      "displayName": "",
+      "id": "9aabd",
+      "name": "Map #8-27.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4875b"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7e7d5": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7e7d5",
+      "displayName": "",
+      "id": "7e7d5",
+      "name": "Map #9-28.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8b6c": {
+      "importer": "texture",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c8b6c",
+      "displayName": "",
+      "id": "c8b6c",
+      "name": "Map #10-29.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Car_pack/textures/Wheel_A_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6e0f2": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6e0f2",
+      "displayName": "",
+      "id": "6e0f2",
+      "name": "Wheel-0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "508c0": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@508c0",
+      "displayName": "",
+      "id": "508c0",
+      "name": "Body-1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5a8cd": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@5a8cd",
+      "displayName": "",
+      "id": "5a8cd",
+      "name": "Optics-2.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d2177": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d2177",
+      "displayName": "",
+      "id": "d2177",
+      "name": "Glass-3.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f6f9d": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f6f9d",
+      "displayName": "",
+      "id": "f6f9d",
+      "name": "Body-4.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f46a5": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f46a5",
+      "displayName": "",
+      "id": "f46a5",
+      "name": "Optics-5.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5baee": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@5baee",
+      "displayName": "",
+      "id": "5baee",
+      "name": "Glass-6.material",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6bcb6": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6bcb6",
+      "displayName": "",
+      "id": "6bcb6",
+      "name": "Wheel-7.material",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "161fc": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@161fc",
+      "displayName": "",
+      "id": "161fc",
+      "name": "Body-8.material",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "02577": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@02577",
+      "displayName": "",
+      "id": "02577",
+      "name": "Optics-9.material",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d699": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9d699",
+      "displayName": "",
+      "id": "9d699",
+      "name": "Glass-10.material",
+      "userData": {
+        "gltfIndex": 10
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e4892": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e4892",
+      "displayName": "",
+      "id": "e4892",
+      "name": "Wheek-11.material",
+      "userData": {
+        "gltfIndex": 11
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a6eb5": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a6eb5",
+      "displayName": "",
+      "id": "a6eb5",
+      "name": "Wheel-12.material",
+      "userData": {
+        "gltfIndex": 12
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "81d8d": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@81d8d",
+      "displayName": "",
+      "id": "81d8d",
+      "name": "Body-13.material",
+      "userData": {
+        "gltfIndex": 13
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e29ef": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e29ef",
+      "displayName": "",
+      "id": "e29ef",
+      "name": "Optics-14.material",
+      "userData": {
+        "gltfIndex": 14
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "074dc": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@074dc",
+      "displayName": "",
+      "id": "074dc",
+      "name": "Glass-15.material",
+      "userData": {
+        "gltfIndex": 15
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "696cd": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@696cd",
+      "displayName": "",
+      "id": "696cd",
+      "name": "Wheel-16.material",
+      "userData": {
+        "gltfIndex": 16
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7b021": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7b021",
+      "displayName": "",
+      "id": "7b021",
+      "name": "Body-17.material",
+      "userData": {
+        "gltfIndex": 17
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a2c91": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a2c91",
+      "displayName": "",
+      "id": "a2c91",
+      "name": "Optics-18.material",
+      "userData": {
+        "gltfIndex": 18
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dfb37": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@dfb37",
+      "displayName": "",
+      "id": "dfb37",
+      "name": "Glass-19.material",
+      "userData": {
+        "gltfIndex": 19
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "33d2d": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@33d2d",
+      "displayName": "",
+      "id": "33d2d",
+      "name": "Wheel-20.material",
+      "userData": {
+        "gltfIndex": 20
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ead8c": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@ead8c",
+      "displayName": "",
+      "id": "ead8c",
+      "name": "Body-21.material",
+      "userData": {
+        "gltfIndex": 21
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6da2a": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6da2a",
+      "displayName": "",
+      "id": "6da2a",
+      "name": "Optics-22.material",
+      "userData": {
+        "gltfIndex": 22
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "89c87": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@89c87",
+      "displayName": "",
+      "id": "89c87",
+      "name": "Glass-23.material",
+      "userData": {
+        "gltfIndex": 23
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e5b08": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e5b08",
+      "displayName": "",
+      "id": "e5b08",
+      "name": "Body-24.material",
+      "userData": {
+        "gltfIndex": 24
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8f075": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@8f075",
+      "displayName": "",
+      "id": "8f075",
+      "name": "Glass-26.material",
+      "userData": {
+        "gltfIndex": 26
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1215": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d1215",
+      "displayName": "",
+      "id": "d1215",
+      "name": "Wheel-27.material",
+      "userData": {
+        "gltfIndex": 27
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3e603": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@3e603",
+      "displayName": "",
+      "id": "3e603",
+      "name": "Wheel-28.material",
+      "userData": {
+        "gltfIndex": 28
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9831d": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9831d",
+      "displayName": "",
+      "id": "9831d",
+      "name": "Optics-30.material",
+      "userData": {
+        "gltfIndex": 30
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ec9e": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6ec9e",
+      "displayName": "",
+      "id": "6ec9e",
+      "name": "Glass-31.material",
+      "userData": {
+        "gltfIndex": 31
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7203c": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7203c",
+      "displayName": "",
+      "id": "7203c",
+      "name": "Wheel-33.material",
+      "userData": {
+        "gltfIndex": 33
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8c770": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@8c770",
+      "displayName": "",
+      "id": "8c770",
+      "name": "Optics-34.material",
+      "userData": {
+        "gltfIndex": 34
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5388f": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@5388f",
+      "displayName": "",
+      "id": "5388f",
+      "name": "Glass-35.material",
+      "userData": {
+        "gltfIndex": 35
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "171cb": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@171cb",
+      "displayName": "",
+      "id": "171cb",
+      "name": "Body-36.material",
+      "userData": {
+        "gltfIndex": 36
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d7937": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d7937",
+      "displayName": "",
+      "id": "d7937",
+      "name": "Optics-37.material",
+      "userData": {
+        "gltfIndex": 37
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1f6b6": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1f6b6",
+      "displayName": "",
+      "id": "1f6b6",
+      "name": "Glass-38.material",
+      "userData": {
+        "gltfIndex": 38
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5350d": {
+      "importer": "gltf-material",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@5350d",
+      "displayName": "",
+      "id": "5350d",
+      "name": "Wheel-39.material",
+      "userData": {
+        "gltfIndex": 39
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bdd6b": {
+      "importer": "gltf-scene",
+      "uuid": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@bdd6b",
+      "displayName": "",
+      "id": "bdd6b",
+      "name": "fab.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #10",
+        "uri": "db://assets/Models/Car_pack/textures/wheel_C_Diffuse.png"
+      },
+      {
+        "name": "Map #8",
+        "uri": "db://assets/Models/Car_pack/textures/CompactBlue.png"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #8",
+        "uri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@014c3"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #10",
+        "uri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@ae790"
+      },
+      {
+        "name": "Map #8",
+        "uri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f50b9"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #10",
+        "uri": "db://assets/Models/Car_pack/textures/wheel_B_Diffuse.png"
+      },
+      {
+        "name": "Map #10",
+        "uri": "db://assets/Models/Car_pack/textures/wheel_D_Diffuse.png"
+      },
+      {
+        "name": "Map #8",
+        "uri": "db://assets/Models/Car_pack/textures/MinivanRed.png"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #10",
+        "uri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@54eb2"
+      },
+      {
+        "name": "Map #8",
+        "uri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@34232"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #10",
+        "uri": "db://assets/Models/Car_pack/textures/wheel_E_Diffuse.png"
+      },
+      {
+        "name": "Map #8",
+        "uri": "db://assets/Models/Car_pack/textures/PickupGreen.png"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #8",
+        "uri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@cef36"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #10",
+        "uri": "db://assets/Models/Car_pack/textures/Wheel_A_Diffuse.png"
+      },
+      {
+        "name": "Map #10",
+        "uri": "db://assets/Models/Car_pack/textures/wheel_H_Diffuse.png"
+      },
+      {
+        "name": "Map #8",
+        "uri": "db://assets/Models/Car_pack/textures/SportRed.png"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #8",
+        "uri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@36e1b"
+      },
+      {
+        "name": "Map #10",
+        "uri": "db://assets/Models/Car_pack/textures/wheel_E_Diffuse.png"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #8",
+        "uri": "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4875b"
+      },
+      {
+        "name": "Map #9",
+        "uri": "db://assets/Models/Car_pack/textures/lights.jpg"
+      },
+      {
+        "name": "Map #10",
+        "uri": "db://assets/Models/Car_pack/textures/Wheel_A_Diffuse.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1a910",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@baeb1",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1c38e",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c9ac7",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e1bda",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6f3e3",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@3fe6e",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4a704",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@3aefb",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@315c5",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@837c4",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4e9f1",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d1bd8",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1a6c7",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@75349",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@52714",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@57eec",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1e628",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9cce0",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@be36a",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@455e0",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@06567",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7d1be",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4b2ab",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@57367",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@53a25",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d4016",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@38fe0",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@351fd",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f2217",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@91305",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@120c6",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4986f",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@3aaab",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@ff7fb",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@83400",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f8300",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@0c658",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@002c6",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c4151",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@35c85",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@90ccf",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@eb66b",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4472f",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a239b",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@52e9c",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e229e",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a0cd0",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@54238",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9faa8",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@4e6f8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d0c5b",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e3f5c",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@25488",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@96922",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9b9b9",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@aded6",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7586f",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a4739",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@38f8d",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c7b61",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@78343",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@42de8",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@833ea",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@ae231",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@332a8",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c9f57",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c1a6d",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d1aab",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@576c2",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d78e2",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@741bc",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@8bc95",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@64746",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d433d",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f64c7",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c938e",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d889f",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9aabd",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7e7d5",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@c8b6c"
+      ],
+      "materials": [
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6e0f2",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@508c0",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@5a8cd",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d2177",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f6f9d",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@f46a5",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@5baee",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6bcb6",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@161fc",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@02577",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9d699",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e4892",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a6eb5",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@81d8d",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e29ef",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@074dc",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@696cd",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7b021",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@a2c91",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@dfb37",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@33d2d",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@ead8c",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6da2a",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@89c87",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@e5b08",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@17969",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@8f075",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d1215",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@3e603",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@17658",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@9831d",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@6ec9e",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@67967",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7203c",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@8c770",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@5388f",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@171cb",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@d7937",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@1f6b6",
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@5350d"
+      ],
+      "scenes": [
+        "7ed44f56-3fdd-46bf-b813-60da6472e7bb@bdd6b"
+      ]
+    },
+    "materials": {
+      "7ed44f56-3fdd-46bf-b813-60da6472e7bb@7b021": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_NORMAL_MAP": true,
+            "DCC_APP_NAME": 1,
+            "USE_METALLIC_MAP": true,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            },
+            "emissiveScale": 0,
+            "shininessExponent": 2,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 243,
+              "g": 243,
+              "b": 243,
+              "a": 255
+            },
+            "specularFactor": 0,
+            "normalMap": {
+              "__uuid__": "fe3bbe11-53f7-456a-8c71-6b9644ceab41@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      },
+      "7ed44f56-3fdd-46bf-b813-60da6472e7bb@696cd": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_NORMAL_MAP": true,
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            },
+            "emissiveScale": 0,
+            "shininessExponent": 2,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 243,
+              "g": 243,
+              "b": 243,
+              "a": 255
+            },
+            "specularFactor": 0.3700000047683716,
+            "normalMap": {
+              "__uuid__": "2cd4d055-769f-4a48-a400-976443460f90@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

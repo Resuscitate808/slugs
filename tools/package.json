@@ -1,0 +1,23 @@
+{
+  "name": "zombie-road-checks",
+  "private": true,
+  "scripts": {
+    "test": "node test-browser-viewport.cjs && node test.cjs",
+    "test:browser-viewport": "node test-browser-viewport.cjs && node test-browser-gestures.cjs",
+    "test:browser-fullscreen": "node test-browser-fullscreen.cjs",
+    "test:obstacle-finish": "node test-obstacle-finish.cjs",
+    "test:sprite-contact": "node test-sprite-contact.cjs",
+    "test:zombie-control": "node test-zombie-control.cjs",
+    "test:vehicle-routing": "node test-vehicle-routing.cjs && node test-vehicle-contact.cjs",
+    "test:vehicle-sprites": "node test-vehicle-sprites.cjs",
+    "test:vehicle-spawn": "node test-vehicle-spawn.cjs",
+    "test:audio": "node test-audio.cjs",
+    "test:vehicle-overtaking": "node test-vehicle-overtaking.cjs && node test-overtaking-queue.cjs && node test-overtaking-trigger.cjs",
+    "test:launch-balance": "node test-launch-balance.cjs && node test-level-table.cjs",
+    "test:progress-reset": "node test-progress-reset.cjs",
+    "test:level-results": "node test-level-results.cjs && node test-leave-warning.cjs",
+    "test:performance": "node test-contact-performance.cjs && node test-ui-performance.cjs",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": { "typescript": "5.7.3" }
+}

@@ -1,0 +1,42 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "f87d992d-3740-4841-9bcf-c8f6ead97da8",
+  "files": [
+    ".jpeg",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "f87d992d-3740-4841-9bcf-c8f6ead97da8@6c48a",
+      "displayName": "Road007_1K_Color",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 4,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f87d992d-3740-4841-9bcf-c8f6ead97da8",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": false,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "f87d992d-3740-4841-9bcf-c8f6ead97da8@6c48a"
+  }
+}

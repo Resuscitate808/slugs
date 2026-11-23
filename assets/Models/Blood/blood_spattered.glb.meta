@@ -1,0 +1,142 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "210edf28-af17-45ec-a5c9-f11d0036f943",
+  "files": [],
+  "subMetas": {
+    "40586": {
+      "importer": "gltf-embeded-image",
+      "uuid": "210edf28-af17-45ec-a5c9-f11d0036f943@40586",
+      "displayName": "",
+      "id": "40586",
+      "name": "UnnamedImage.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9ba2f": {
+      "importer": "gltf-mesh",
+      "uuid": "210edf28-af17-45ec-a5c9-f11d0036f943@9ba2f",
+      "displayName": "",
+      "id": "9ba2f",
+      "name": "Remesh_Mat_0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 43952
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "210edf28-af17-45ec-a5c9-f11d0036f943@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "210edf28-af17-45ec-a5c9-f11d0036f943@40586"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "222d4": {
+      "importer": "gltf-material",
+      "uuid": "210edf28-af17-45ec-a5c9-f11d0036f943@222d4",
+      "displayName": "",
+      "id": "222d4",
+      "name": "material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8e7a0": {
+      "importer": "gltf-scene",
+      "uuid": "210edf28-af17-45ec-a5c9-f11d0036f943@8e7a0",
+      "displayName": "",
+      "id": "8e7a0",
+      "name": "blood_spattered.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "uri": "210edf28-af17-45ec-a5c9-f11d0036f943@40586"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "210edf28-af17-45ec-a5c9-f11d0036f943@9ba2f"
+      ],
+      "skeletons": [],
+      "textures": [
+        "210edf28-af17-45ec-a5c9-f11d0036f943@e39f7"
+      ],
+      "materials": [
+        "210edf28-af17-45ec-a5c9-f11d0036f943@222d4"
+      ],
+      "scenes": [
+        "210edf28-af17-45ec-a5c9-f11d0036f943@8e7a0"
+      ]
+    }
+  }
+}

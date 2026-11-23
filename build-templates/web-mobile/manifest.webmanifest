@@ -1,0 +1,11 @@
+{
+  "name": "Zombie Road",
+  "short_name": "Zombie Road",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "landscape",
+  "background_color": "#333333",
+  "theme_color": "#eee5cb"
+}

@@ -1,0 +1,17 @@
+{
+  "__version__": "1.3.8",
+  "textureCompressConfig": {
+    "userPreset": {
+      "42GONLU3ZKhKb70T9qnCAH": {
+        "name": "WebP",
+        "options": {
+          "web": {
+            "webp": {
+              "quality": 80
+            }
+          }
+        }
+      }
+    }
+  }
+}

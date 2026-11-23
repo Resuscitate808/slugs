@@ -1,0 +1,71 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const assert = require('node:assert/strict');
+const ts = require('typescript');
+const cache = new Map();
+const cc = { _decorator: { ccclass: () => v => v, property: () => () => {} }, Component: class {}, Node: class {}, Label: class {}, Button: class { static EventType = { CLICK: 'click' }; } };
+function load(file) {
+    file = path.resolve(file);
+    if (cache.has(file)) return cache.get(file);
+    const exports = {}; cache.set(file, exports);
+    const source = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020, experimentalDecorators: true } }).outputText;
+    vm.runInNewContext(source, { exports, console, Date, Math, require: id => id === 'cc' ? cc : load(path.resolve(path.dirname(file), id + '.ts')) });
+    return exports;
+}
+const root = '../assets/Scripts/game/';
+const { Progress } = load(root + 'application/Progress.ts');
+const { GeneratorReward } = load(root + 'application/GeneratorReward.ts');
+const { GameFlow } = load(root + 'application/GameFlow.ts');
+const { EconomyWindows } = load(root + 'presentation/EconomyWindows.ts');
+let saved;
+const storage = { getItem: () => saved ?? null, setItem: (_, value) => { saved = value; } };
+const p = new Progress(storage);
+let missing;
+p.onInsufficientCoins = (required, available) => { missing = [required, available]; };
+p.data.coins = 7;
+assert.equal(p.spendCoins(10), false); assert.deepEqual(missing, [10, 7]); assert.equal(p.data.coins, 7);
+for (const cost of [-1, NaN, Infinity, 1.5]) assert.equal(p.spendCoins(cost), false);
+assert.equal(p.spendCoins(7), true); assert.equal(p.data.coins, 0);
+const flow = new GameFlow(p, { zombieCount: 2 });
+flow.screen = 'result'; flow.outcome = { won: true, delivered: [], fallen: [{ member: { id: 99, kind: 0, growth: 0 }, revived: false }] };
+assert.equal(flow.revive(0, 10), false); assert.equal(flow.outcome.fallen[0].revived, false);
+p.data.coins = 10; assert.equal(flow.revive(0, 10), true); assert.equal(flow.revive(0, 10), false); assert.equal(p.data.coins, 0);
+const reward = new GeneratorReward(p, { coins: 60, intervalHours: 6 });
+assert.equal(reward.claim(1000), true); assert.equal(reward.claim(1000), false);
+const restored = new Progress(storage); const r2 = new GeneratorReward(restored, { coins: 60, intervalHours: 6 });
+assert.equal(r2.remaining(1001), 21600000 - 1); assert.equal(r2.claim(21601000), true);
+const ui = new EconomyWindows();
+function node() { return { active: false, parent: { children: [1, 2, 3] }, setSiblingIndex(i) { this.order = i; } }; }
+function button() { let handler; return { interactable: true, node: { on(_, fn, self) { assert.equal(handler, undefined); handler = () => fn.call(self); }, off() { handler = undefined; } }, click() { if (this.interactable) handler?.(); } }; }
+ui.insufficient = node(); ui.battery = node();
+for (const name of ['shortage', 'required', 'balance', 'status', 'timer', 'claimText']) ui[name] = { string: '' };
+for (const name of ['back', 'dismiss', 'toBattery', 'closeBattery', 'claim']) ui[name] = button();
+ui.openButtons = [button(), button(), button()]; ui.readinessLabels = [{ string: '' }];
+let opened = 0, closed = 0, changed = 0;
+delete p.data.generatorClaimedAt; p.data.coins = 7;
+ui.bind(p, reward, () => opened++, () => closed++, () => changed++);
+assert.equal(flow.revive(9, 10), false); assert.equal(ui.isOpen, false);
+assert.equal(p.spendCoins(20), false);
+assert.equal(ui.insufficient.active, true); assert.equal(ui.shortage.string, 'Не хватает 13 монет'); assert.equal(ui.required.string, 'Нужно 20 · есть 7');
+ui.toBattery.click(); assert.equal(ui.insufficient.active, false); assert.equal(ui.battery.active, true);
+ui.claim.click(); ui.claim.click(); assert.equal(p.data.coins, 67); assert.equal(changed, 1); assert.equal(ui.claim.interactable, false);
+assert.match(ui.timer.string, /Следующий сбор через/);
+ui.closeBattery.click(); assert.equal(ui.insufficient.active, true); assert.equal(ui.battery.active, false); assert.equal(ui.required.string, 'Нужно 20 · есть 67');
+ui.back.click(); assert.equal(ui.isOpen, false); assert.equal(closed, 1);
+for (const b of ui.openButtons) { b.click(); assert.equal(ui.battery.active, true); ui.closeBattery.click(); assert.equal(ui.isOpen, false); }
+ui.bind(p, reward, () => {}, () => {}, () => {}); ui.unbind(); assert.equal(p.onInsufficientCoins, null);
+const scene = JSON.parse(fs.readFileSync('../assets/Scenes/ZombieRoad.scene', 'utf8'));
+const meta = JSON.parse(fs.readFileSync(root + 'presentation/EconomyWindows.ts.meta', 'utf8'));
+const hex = meta.uuid.replaceAll('-', ''), chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+let type = hex.slice(0, 5);
+for (let i = 5; i < 32; i += 3) { const n = parseInt(hex.slice(i, i + 3), 16); type += chars[n >> 6] + chars[n & 63]; }
+const c = scene.find(n => n.__type__ === type);
+assert.ok(c); assert.equal(scene[c.node.__id__]._name, 'Battery');
+for (const key of ['shortage', 'required', 'balance', 'status', 'timer', 'claimText']) assert.equal(scene[c[key].__id__].__type__, 'cc.Label');
+for (const key of ['back', 'dismiss', 'toBattery', 'closeBattery', 'claim']) assert.equal(scene[c[key].__id__].__type__, 'cc.Button');
+assert.equal(c.openButtons.length, 3);
+assert.ok(scene.some(n => n.economy?.__id__ === scene.indexOf(c)));
+const visit = obj => { if (!obj || typeof obj !== 'object') return; if ('__id__' in obj) assert.ok(scene[obj.__id__]); Object.values(obj).forEach(visit); };
+scene.forEach(visit);
+console.log('PASS economy: insufficient/exact/invalid payment, revival once, persisted 6h reward, modal navigation, live labels, single claim, three entry buttons, cleanup, scene references');

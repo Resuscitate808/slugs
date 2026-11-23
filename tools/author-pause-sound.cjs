@@ -1,0 +1,24 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const file = path.join(__dirname, '../assets/Scenes/ZombieRoad.scene');
+const text = fs.readFileSync(file, 'utf8');
+const s = JSON.parse(text);
+const node = s.findIndex(n => n._id === 'e3TIvUrohAlI2ZuGFt9q21');
+if (node < 0) throw new Error('Sound switch missing');
+if (s.some(n => n._id === 'pause-sound-toggle')) throw new Error('Already authored');
+const ref = __id__ => ({ __id__ });
+const audio = s.find(n => n._id === 'zombie-road-bootstrap').audio;
+const button = structuredClone(s[3572]);
+Object.assign(button, { node: ref(node), _target: ref(node), _transition: 0, _id: 'pause-sound-button', clickEvents: [] });
+const buttonId = s.push(button) - 1;
+s[node]._components.push(ref(buttonId));
+const hex = '8d74bf394c6a4cdfb432d8587a14c052';
+const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+let type = hex.slice(0, 5);
+for (let i = 5; i < 32; i += 3) { const n = parseInt(hex.slice(i, i + 3), 16); type += chars[n >> 6] + chars[n & 63]; }
+const component = { __type__: type, _name: '', _objFlags: 0, __editorExtras__: {}, node: ref(node), _enabled: true, __prefab: null, audio, button: ref(buttonId), knob: ref(3579), onLabel: ref(3582), offLabel: ref(3585), track: ref(3589), onColor: { __type__: 'cc.Color', r: 255, g: 255, b: 255, a: 255 }, offColor: { __type__: 'cc.Color', r: 180, g: 180, b: 180, a: 255 }, onX: 47.938, offX: -47.938, _id: 'pause-sound-toggle' };
+s[node]._components.push(ref(s.push(component) - 1));
+s[3585]._lpos.x = 30;
+s[3584]._string = 'Вкл';
+fs.writeFileSync(file, JSON.stringify(s, null, 2) + '\n');
+console.log('Connected existing pause sound nodes');

@@ -1,0 +1,148 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "buildPath": "project://build",
+      "outputName": "web-mobile",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "web-mobile",
+      "name": "zombie_road",
+      "useSplashScreen": true,
+      "scenes": [
+        {
+          "url": "db://assets/Scenes/ZombieRoad.scene",
+          "uuid": "a7a39d76-0872-495e-968d-d46001e01596"
+        }
+      ],
+      "startScene": "a7a39d76-0872-495e-968d-d46001e01596"
+    },
+    "taskOptionsMap": {
+      "1793711649996": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793891020357": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793891508978": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793891589498": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793891789814": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793892295668": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793903125702": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793903602468": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793904065945": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793904404135": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793904817402": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793905186853": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793905231601": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1793953809831": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1794386712100": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1794393082964": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1794393858079": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1794395647568": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1794988786484": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.8",
+    "options": {
+      "web-mobile": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    }
+  }
+}

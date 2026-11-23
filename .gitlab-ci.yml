@@ -1,0 +1,69 @@
+stages:
+  - prepare
+  - build
+  - deploy
+  - notification
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive 
+  GIT_STRATEGY: fetch
+
+build_project:
+  stage: build
+  before_script:
+    - git submodule sync --recursive
+    - git submodule update --init --recursive
+    - echo "Субмодули выгружены:"
+  script:
+    - echo "Сборка..."
+    - $client = New-Object System.Net.Sockets.TcpClient("localhost", 65123)
+    - $stream = $client.GetStream()
+    - $writer = New-Object System.IO.StreamWriter($stream)
+    - $writer.WriteLine("build $CI_PROJECT_DIR")
+    - $writer.Flush()
+    - echo "Ожидание завершения сборки..."
+    - $reader = New-Object System.IO.StreamReader($stream)
+
+    # Цикл чтения сообщений
+    - | 
+      while ($true) {
+        $line = $reader.ReadLine()
+        if ($null -eq $line) { exit 1 }
+        echo $line
+        if ($line -eq "__BUILD_SUCCESS__") { break }
+        if ($line -eq "__BUILD_ERROR__") { exit 1 }
+      }
+
+    - $client.Close()
+
+    - echo "Сборка завершена"
+  artifacts:
+    paths:
+      - build/web-mobile/
+    expire_in: 1 day
+  only:
+    - dev
+
+deploy_to_server:
+  stage: deploy
+  script:
+    - echo "Деплой на сервер..."
+    - npm run deploy-dev
+  only:
+    - dev
+
+notify_slack:
+  stage: notification
+  needs:
+    - deploy_to_server
+  script:
+    - echo "Отправка уведомления в Slack..."
+    - |
+      if (-not $env:SLACK_WEBHOOK_URL -or $env:SLACK_WEBHOOK_URL.Trim().Length -eq 0) {
+        Write-Error "Переменная SLACK_WEBHOOK_URL не задана в CI/CD variables."
+        exit 0
+      }
+    - node build-scripts/notify_slack.js
+  when: on_success
+  only:
+    - dev

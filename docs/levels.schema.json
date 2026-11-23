@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Zombie Road — пять уровней",
+  "type": "object",
+  "required": ["version", "obstacleTypes", "levels"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "const": 1 },
+    "obstacleTypes": {
+      "type": "array", "maxItems": 64,
+      "items": {
+        "type": "object", "required": ["id", "effect", "radius"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "effect": { "enum": ["trip", "slip", "snare"], "description": "Совместимость/вид запасного примитива. Все типы задерживают зомби на 10 секунд." },
+          "radius": { "type": "number", "minimum": 0.1, "maximum": 2 },
+          "chance": { "type": "number", "minimum": 0, "maximum": 1, "default": 1, "description": "Старое поле для совместимости; задержка теперь обязательная, значение не влияет." }
+        }
+      }
+    },
+    "levels": {
+      "type": "array", "minItems": 5, "maxItems": 5,
+      "items": {
+        "type": "object", "required": ["id", "obstacles"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "name": { "type": "string", "description": "Устарело и игнорируется: название всегда «Уровень 0N»" },
+          "median": { "type": "boolean", "description": "Устарело и игнорируется: разделителя нет" },
+          "intersection": { "type": "boolean", "description": "Устарело и игнорируется: перекрёстка нет" },
+          "laneDirections": {
+            "type": "array", "minItems": 2, "maxItems": 5,
+            "description": "Полосы сверху вниз (Z возрастает). Без поля используются настройки по номеру уровня.",
+            "items": { "enum": ["left", "right"] }
+          },
+          "obstacles": { "type": "array", "maxItems": 128, "items": { "$ref": "#/$defs/obstacle" } }
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "id": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "obstacle": {
+      "type": "object", "required": ["id", "type", "x", "z"], "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "type": { "$ref": "#/$defs/id", "description": "ID из obstacleTypes" },
+        "x": { "type": "number" },
+        "z": { "type": "number" },
+        "rotation": { "type": "number", "minimum": -360, "maximum": 360, "default": 0 },
+        "scale": { "type": "number", "minimum": 0.1, "maximum": 4, "default": 1 },
+        "radius": { "type": "number", "minimum": 0.1, "maximum": 2, "description": "Переопределить радиус; иначе радиус типа × scale" }
+      }
+    }
+  }
+}
